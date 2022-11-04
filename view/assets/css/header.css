@@ -1,0 +1,67 @@
+.header .banner {
+  position: relative;
+  height: 80px;
+}
+.header .banner img {
+  position: absolute;
+  top: 8px;
+  display: inline-block;
+}
+.header .banner h1 {
+  position: absolute;
+  left: 80px;
+  top: 8px;
+  display: inline-block;
+  line-height: 64px;
+}
+.header .tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 36px;
+  padding: 0 26px;
+}
+.header .tools-search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  width: 200px;
+  height: 36px;
+  background-color: #FF6262;
+}
+.header .tools-search-btn-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header .tools-search-btn-icon span {
+  display: inline-block;
+  width: 12px;
+  height: 3px;
+  margin: 1px 4px;
+  background-color: #fff;
+}
+.header .tools-search-input {
+  width: 350px;
+  height: 36px;
+  border-radius: 15px;
+  padding-left: 12px;
+}
+.header .tools-cart {
+  width: 120px;
+  height: 36px;
+  border-radius: 15px;
+}
+
+hr {
+  margin: 4px 0;
+}
+
+.login-btn {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  z-index: 1;
+}/*# sourceMappingURL=header.css.map */
