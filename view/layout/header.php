@@ -3,23 +3,26 @@
         <img src="./view/assets/image/logo.png" alt="logo" width="64" height="64">
         <h1>Thọ Phạm Store</h1>
         <?php
-        
+
         ?>
     </div>
     <hr />
     <div class="tools">
-        <button class="tools-search-btn">
-            <div class="tools-search-btn-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div>
-                <h3>Danh mục sản phẩm</h3>
-            </div>
-        </button>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Danh mục sản phẩm
+            </button>
+
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">IPhone</a></li>
+                <li><a class="dropdown-item" href="#">Ipad</a></li>
+                <li><a class="dropdown-item" href="#">Macbook</a></li>
+                <li><a class="dropdown-item" href="#">Apple Watch</a></li>
+                <li><a class="dropdown-item" href="#">Airpod</a></li>
+            </ul>
+        </div>
         <input type="text" placeholder="Search" class="tools-search-input">
-        <button class="tools-cart">Giỏ hàng</button>
+        <button class="btn btn-primary">Giỏ hàng</button>
     </div>
     <hr>
 </div>
